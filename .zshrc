@@ -1,3 +1,5 @@
+# export PS1=‘%{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)‘$’\n${ret_status} $reset_color’
+
 # Set up the prompt
 
 autoload -Uz promptinit
